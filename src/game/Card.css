@@ -1,0 +1,22 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.card img{
+    text-align: center;
+    width: 100%;
+}
+
+#rules-img {
+    text-align: center;
+    margin-top: 20%;
+    border-right: 0;
+}

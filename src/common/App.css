@@ -1,0 +1,21 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title img {
+  max-width: 50%;
+}
+
+.title h3 {
+  color: #fbc52d;
+  margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .title {
+    margin: 5%;
+  }
+}
+

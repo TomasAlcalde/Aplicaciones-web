@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  min-height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  font-family: 'Georgia', monospace;
+  margin: 0px;
+  background-image: url(../assets/IndexBackground.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(0, 0, 0);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  background-color: #fbc52d;
+  color: #000000;
+  padding: 10px 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eac952;
+}
+
+#see-button a {
+  color: #202020;
+  text-align: center;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

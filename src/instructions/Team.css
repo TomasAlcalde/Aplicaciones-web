@@ -1,0 +1,45 @@
+  .nombre {
+    font-size: 16px;
+    font-weight: 800;
+    border-bottom: 2px dashed lightgray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .caracteristica {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+  
+  #card {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    max-height: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    margin: 20px;
+    border: 2px solid #2e2b2b;
+    border-radius: 4px;
+    background-color: #262626;
+    color: lightgray;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 4px;
+  }
+  
+  .cards-box {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    overflow: auto;
+    max-width: 100%;
+    padding: 2%;
+    margin-bottom: 20px;
+    border: 1px;
+    align-items: stretch;
+  }
