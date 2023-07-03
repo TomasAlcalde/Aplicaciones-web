@@ -81,31 +81,31 @@ export async function display(token, game_id) {
                 <svg id = "board" >
                     <defs>
                         <pattern id="pattern-desert" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/desert.jpg" />
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../desert.jpg" />
                         </pattern>
 
                         <pattern id="pattern-wood" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/forest.jpg" />
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../forest.jpg" />
                         </pattern>
 
                         <pattern id="pattern-clay" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/brick.jpg" />
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../brick.jpg" />
                         </pattern>
 
                         <pattern id="pattern-stone" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/stone.jpg" />
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../stone.jpg" />
                         </pattern>
 
                         <pattern id="pattern-wheat" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/grain.jpg" />
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../grain.jpg" />
                         </pattern>
 
                         <pattern id="pattern-sheep" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/wool.jpg"/ >
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../wool.jpg"/ >
                         </pattern>
 
                         <pattern id="pattern-sea" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../src/assets/sea.jpg" />
+                            <image height="1" width="1" preserveAspectRatio="none" xlink:href="../../sea.jpg" />
                         </pattern>
 
                         <g id="hexagon">
