@@ -45,23 +45,23 @@ async function Control(token, game_id, player_id) {
             <p style="color:${players[i].color}">Player ${players[i].id}</p>
             <div>
             <div class="r-wood">
-            <img class="icon" src="../../src/assets/images/icons_resource/wood.png">
+            <img class="icon" src="../assets/images/icons_resource/wood.png">
             <span class="val-wood">?</span>
             </div>
             <div class="r-clay">
-            <img class="icon" src="../../src/assets/images/icons_resource/brick.png">
+            <img class="icon" src="../assets/images/icons_resource/brick.png">
             <span class="val-clay">?</span>
             </div>
             <div class="r-stone">
-            <img class="icon" src="../../src/assets/images/icons_resource/stone.png">
+            <img class="icon" src="../assets/images/icons_resource/stone.png">
             <span class="val-stone">?</span>
             </div>
             <div class="r-wheat">
-            <img class="icon" src="../../src/assets/images/icons_resource/grain.png">
+            <img class="icon" src="../assets/images/icons_resource/grain.png">
             <span class="val-wheat">?</span>
             </div>
             <div class="r-sheep">
-            <img class="icon" src="../../src/assets/images/icons_resource/wool.png">
+            <img class="icon" src="../assets/images/icons_resource/wool.png">
             <span class="val-sheep">?</span>
             </div>
             </div>
@@ -289,10 +289,10 @@ async function roll(token, game_id, player_id) {
     const game = response.data.game
 
     $('#d1').html(`
-            <img src="../../src/assets/images/dice/d${game.dice1}.png">
+            <img src="../assets/images/dice/d${game.dice1}.png">
         `);
     $('#d2').html(`
-        <img src="../../src/assets/images/dice/d${game.dice2}.png">
+        <img src="../assets/images/dice/d${game.dice2}.png">
         `);
     // 7, robber
     // free previous forbidden tile
